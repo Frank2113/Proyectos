@@ -1,0 +1,86 @@
+*{ margin: 0; padding: 0;}
+
+body{
+    background: #D0DCFE;
+    color: #0345fc;
+}
+
+#contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px ;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    background: rgb(49, 170, 146);
+    grid-template-areas: 
+    "heather heather heather"
+    "contenido contenido sidebar"
+    "widget-1 widget-2 sidebar"
+    "footer footer footer"    
+}
+
+.bordes{
+    background: greenyellow;
+    padding: 20px;
+    border-radius: 4px;    
+}
+
+#heather{
+    background: burlywood;
+    grid-area: heather;
+}
+
+#contenido{
+    grid-area: contenido;
+}
+
+#sidebar{
+    grid-column: 3/4;
+    background: rgb(67, 199, 44);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: sidebar;
+}
+
+#widget-1{
+    grid-area: widget-1;
+
+}
+
+#widget-2{
+    grid-area: widget-2;
+    
+}
+
+.wid{
+    background: #4bcfff;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer{
+    background: #c94803;
+    grid-area: footer;
+}
+
+/*-----------------------------*/
+
+@media screen and (max-width:768px){
+    #contenedor{
+        grid-template-areas: 
+
+        "heather heather heather"
+        "contenido contenido contenido"
+        "sidebar sidebar sidebar"
+        "widget-1 widget-1 widget-2"
+        "footer footer footer";
+    }
+
+}

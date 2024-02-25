@@ -1,0 +1,33 @@
+*{
+    margin: 0; padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: orange;   
+}
+
+img{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    width: 50%;
+    object-fit: contain;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    font-size: 2.5vw;
+    text-shadow: .2vw .2vh gray;
+}
+
+p, h2{
+    text-align: center;
+}
+
+

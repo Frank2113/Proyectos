@@ -1,0 +1,115 @@
+[
+    {
+        "precio":1200.00,
+        "id":1,
+        "title":"AM",
+        "thumbnailUrl":"https://proyectos0121.000webhostapp.com/Images/1.jpg"
+    },
+
+    {
+        "precio":800.00,
+        "id":2,
+        "title":"Overexposed",
+        "thumbnailUrl":"https://proyectos0121.000webhostapp.com/Images/2.jpg"
+    },
+
+    {
+        "precio":3000.00,
+        "id":3,
+        "title":"Back in black",
+        "thumbnailUrl":"https://proyectos0121.000webhostapp.com/Images/3.jpg"
+    },
+
+    {
+        "precio":1500.00,
+        "id":4,
+        "title":"The dark side of the moon",
+        "thumbnailUrl":"https://proyectos0121.000webhostapp.com/Images/4.jpg"
+    },
+
+    {
+        "precio":30.00,
+        "id":5,
+        "title":"Evolve",
+        "thumbnailUrl":"https://proyectos0121.000webhostapp.com/Images/5.jpg"
+    },
+
+    {
+        "precio":30.00,
+        "id":6,
+        "title":"The Hits & Unleashed",
+        "thumbnailUrl":"https://proyectos0121.000webhostapp.com/Images/6.jpg"
+    },
+
+    {
+        "precio":30.00,
+        "id":7,
+        "title":"Demon days",
+        "thumbnailUrl":"https://proyectos0121.000webhostapp.com/Images/7.jpg"
+    },
+
+    {
+        "precio":30.00,
+        "id":8,
+        "title":"JTXXI",
+        "thumbnailUrl":"https://proyectos0121.000webhostapp.com/Images/8.jpg"
+    },
+
+    {
+        "precio":30.00,
+        "id":9,
+        "title":"All alone",
+        "thumbnailUrl":"https://proyectos0121.000webhostapp.com/Images/9.jpg"
+    },
+
+    {
+        "precio":30.00,
+        "id":10,
+        "title":"Delorean",
+        "thumbnailUrl":"https://proyectos0121.000webhostapp.com/Images/10.jpg"
+    },
+
+    {
+        "precio":30.00,
+        "id":11,
+        "title":"Mad world",
+        "thumbnailUrl":"https://proyectos0121.000webhostapp.com/Images/11.jpg"
+    },
+
+    {
+        "precio":30.00,
+        "id":12,
+        "title":"Raising the beast",
+        "thumbnailUrl":"https://proyectos0121.000webhostapp.com/Images/12.jpg"
+    },
+
+    {
+        "precio":30.00,
+        "id":13,
+        "title":"Thogether",
+        "thumbnailUrl":"https://proyectos0121.000webhostapp.com/Images/13.jpg"
+    },
+
+    {
+        "precio":30.00,
+        "id":14,
+        "title":"Shalabi efect",
+        "thumbnailUrl":"https://proyectos0121.000webhostapp.com/Images/14.jpg"
+    },
+
+    {
+        "precio":30.00,
+        "id":15,
+        "title":"Rupture",
+        "thumbnailUrl":"https://proyectos0121.000webhostapp.com/Images/15.jpg"
+    },
+
+    {
+        "precio":30.00,
+        "id":16,
+        "title":"The Last Shadow Puppets",
+        "thumbnailUrl":"https://proyectos0121.000webhostapp.com/Images/16.jpg"
+    }
+    
+    
+]

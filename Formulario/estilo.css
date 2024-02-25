@@ -1,0 +1,21 @@
+*{
+    margin: 0; padding: 0;
+}
+
+input:focus{
+    background-color: tomato; 
+}
+
+html{
+    width: 750px; height: 750px;
+    background-color: black;
+}
+
+body{
+    width: 375px; height: 375px;
+    margin: auto; background: rgb(20, 52, 255);
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+}
+
