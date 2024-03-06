@@ -1,0 +1,82 @@
+body{ 
+    background: #000; 
+} 
+
+h1{ 
+    color: #dcfd05; 
+    text-align: center; 
+} 
+
+.container-all{ 
+    width: auto; 
+    height: 1100px; 
+    background: #f37a51; 
+    margin: auto; 
+} 
+
+.container{ 
+    display: block; 
+    max-width: 1000px; 
+    margin: auto; 
+    font-size: 1.3vw; 
+} 
+
+.item{ 
+    width: 100%; 
+    height: 250px;
+    background-color: #a201ff; 
+    margin: 30px; 
+    color: #fff; 
+} 
+
+.item-2{ 
+    opacity: 50%; 
+} 
+
+.item-3{ 
+    opacity: 50%; 
+} 
+
+img{ 
+    width: 100%; 
+    border-radius: 10px; 
+} 
+/* meida */ 
+
+@media only screen and (max-width:1200px){ 
+    
+    .container-all{ 
+        background: rgba(3, 75, 72, .9); 
+    } 
+    
+    .container{ 
+        margin: auto; 
+        display: block; 
+        max-width: 800px; 
+        font-size: 2.5vw; 
+    }
+     
+    h1{ 
+        color: #fdf105; 
+        text-align: center; 
+    } 
+} 
+
+@media only screen and (max-width:768px){ 
+    
+    .container-all{ 
+        background: rgba(193, 252, 92, .5); 
+    } 
+    
+    .container{ 
+        margin: auto; 
+        display: block; 
+        max-width: 768px; 
+        font-size: 3.5vw; 
+    } 
+    
+    h1{ 
+        color: #fb01a4; 
+        text-align: center; 
+    } 
+}
