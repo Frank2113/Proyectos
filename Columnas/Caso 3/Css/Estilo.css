@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    margin-bottom: 1rem;
+    color: #ff9900;
+    font-weight: 600;
+}
+h2{
+    color: #0789c9;
+    font-weight: 400;
+}
+
+p{
+    margin-bottom: 1rem;
+}
+
+img {
+    width: 100%;
+    margin: 1rem 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: translateY(-5px); 
+}
+
+main{
+    background-color: #fff;
+    padding: 1rem;
+    margin: 3rem auto;
+    max-width: 800px;
+    display: block;
+
+
+    
+}
