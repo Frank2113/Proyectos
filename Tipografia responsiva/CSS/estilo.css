@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Concert+One&family=Madimi+One&family=PT+Sans+Caption:wght@400;700&family=Shadows+Into+Light&display=swap');
+
+
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .concert-one-regular {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .pt-sans caption-regular {
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-sans caption-bold {
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .shadows-into light-regular {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .akaya-telivigala-regular {
+    font-family: "Akaya Telivigala", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+          
+
+  body{
+    max-width: 1200px;
+    background: #063063;
+    margin: auto;
+    font-size: clamp(2em, 1vw, 3em);
+
+
+  }
+  h1{
+    color: rgb(49, 52, 199);
+    font-family: 'Concert One' cursive;
+  }
+  h3{
+    color: rgb(250, 208, 0);
+    font-family: 'Madimi One' cursive;
+  }
+  p{
+    color: rgb(15, 62, 139);
+    font-family: 'MPT Sans Caption' cursive;
+  }
+  h5{
+    color: rgb(168, 119, 51);
+    font-family: 'Shadows Into Light' cursive;
+  }
+
+  .caja_img{
+    width: 90%;
+    margin: auto;
+  }
+
+  footer{
+    text-align: center;
+    color: rgb(250, 6, 6);
+    font-size: 1em;
+  }
