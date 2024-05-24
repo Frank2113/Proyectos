@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Usuario</title>
+    <link rel="stylesheet" href="/Css/Perfil.css">
+</head>
+<header>
+    <h1>Indimation</h1>
+    <nav>
+        <ul>
+            <li><a href="/Html/Principal.html">Inicio</a></li>
+            <li><a href="/Html/Perfil.html">Perfil</a></li>
+            <li><a href="/Html/Log.html">Iniciar Sesion</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <div class="profile-container">
+        <div class="profile-picture">
+            <img src="/Img/Perfil.jpg   " alt="Foto de Perfil">
+        </div>
+        <div class="profile-description">
+            <h1>Alan</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ullam tempore quos id aspernatur iusto. Quis provident dolorem cupiditate in rerum tenetur blanditiis illum dolorum, sed neque ipsa voluptates aliquid.</p>
+        </div>
+        <div class="tabs">
+            <button class="tab-button" onclick="showTab('tab1')">Videos</button>
+            <button class="tab-button" onclick="showTab('tab2')">Series</button>
+            <button class="tab-button" onclick="showTab('tab3')">Comunidad</button>
+        </div>
+        <div class="tab-content" id="tab1">
+            <h2>Videos</h2>
+
+            <div class="video-grid">
+                <div class="video-item">
+                  <a href="/Html/Video.html"><img src="https://i.ytimg.com/vi/ErMSHiQRnc8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBMVbl2-HJ7epKIhWn77n64oUOz9w" alt=""></a>
+                  <h3>titulo 1</h3>
+                  <p>descripcion 1</p>
+              </div>
+              <div class="video-item">
+                  <a href="#"><img src="https://i.ytimg.com/vi/CAYDRIbXFAc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAZrgI2lUamHFgFiKXUn58xYLqXjA" alt=""></a>
+                  <h3>titulo 2</h3>
+                  <p>descripcion 2</p>
+              </div>
+              <div class="video-item">
+                  <a href="#"><img src="https://i.ytimg.com/vi/I5cFBi02O34/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB3mU_BYYx4uWu-i-XY3Klq5Jd3Lg" alt=""></a>
+                  <h3>titulo 3</h3>
+                  <p>descripcion 3</p>
+              </div>
+              <div class="video-item">
+                  <a href="#"></a>
+                  <h3>titulo 4</h3>
+                  <p>descripcion 4</p>
+              </div>
+              <div class="video-item">
+                  <a href="#"></a>
+                  <h3>titulo 5</h3>
+                  <p>descripcion 5</p>
+              </div>
+              <div class="video-item">
+                  <a href="#"></a>
+                  <h3>titulo 6</h3>
+                  <p>descripcion 6</p>
+              </div>
+              <div class="video-item">
+                  <a href="#"></a>
+                  <h3>titulo 7</h3>
+                  <p>descripcion 7</p>
+              </div>
+              <div class="video-item">
+                  <a href="#"></a>
+                  <h3>titulo 8</h3>
+                  <p>descripcion 8</p>
+              </div>
+              <div class="video-item">
+                  <a href="#"></a>
+                  <h3>titulo 9</h3>
+                  <p>descripcion 9</p>
+              </div>
+              <div class="video-item">
+                  <a href="#"></a>
+                  <h3>titulo 10</h3>
+                  <p>descripcion 10</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="tab-content" id="tab2" style="display:none;">
+            <h2>Series </h2>
+            <div class="image-grid">
+                <div class="image-item hoverable">
+                    <img src="https://via.placeholder.com/320x500" alt="Image Thumbnail">
+                    <div class="hover-overlay">
+                        <button class="action-button">Reproducir</button>
+                        <button class="action-button">Episodios</button>
+                    </div>
+                </div>
+                <div class="image-item hoverable">
+                    <img src="https://via.placeholder.com/320x500" alt="Image Thumbnail">
+                    <div class="hover-overlay">
+                        <button class="action-button">Reproducir</button>
+                        <button class="action-button">Episodios</button>
+                    </div>
+                </div>
+                <div class="image-item hoverable">
+                    <img src="https://via.placeholder.com/320x500" alt="Image Thumbnail">
+                    <div class="hover-overlay">
+                        <button class="action-button">Reproducir</button>
+                        <button class="action-button">Episodios</button>
+                    </div>
+                </div>
+        </div>
+        <div class="tab-content" id="tab3" style="display:none;">
+            <h2>Amigos</h2>
+            <p>Aquí se mostrarán los amigos del usuario.</p>
+        </div>
+    </div>
+    <script src="/Js/Perfil.js"></script>
+</body>
+</html>
